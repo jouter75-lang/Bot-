@@ -1,0 +1,12 @@
+{  
+  "name": "discord-template-migrator",  
+  "version": "1.0.0",  
+  "description": "Bot seguro para migrar plantillas (roles y canales) desde una URL JSON",  
+  "main": "index.js",  
+  "engines": { "node": ">=18" },  
+  "scripts": { "start": "node index.js" },  
+  "dependencies": {  
+    "discord.js": "^14.11.0",  
+    "dotenv": "^16.0.0"  
+  }  
+}

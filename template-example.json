@@ -1,0 +1,11 @@
+{  
+  "roles": [  
+    { "name": "Moderator", "color": "#00A2FF", "hoist": true, "mentionable": false, "permissions": "104189505" },  
+    { "name": "Member", "color": "DEFAULT", "hoist": false, "mentionable": false, "permissions": "104324161" }  
+  ],  
+  "channels": [  
+    { "name": "Staff", "type": "category" },  
+    { "name": "mod-log", "type": "text", "parent": "Staff", "permissionOverwrites": [{ "roleName": "Moderator", "allow": 0, "deny": 0 }] },  
+    { "name": "general", "type": "text" }  
+  ]  
+}
